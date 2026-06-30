@@ -1,0 +1,489 @@
+{
+  "issues": [
+    {
+      "id": "issue-001",
+      "title": "Large pothole near school crossing",
+      "description": "Deep pothole on the main road near Greenwood School. Dangerous for children and cyclists, especially during rain.",
+      "category": "pothole",
+      "status": "in_progress",
+      "priority": "high",
+      "location": {
+        "lat": 19.082,
+        "lng": 72.871,
+        "address": "Near Greenwood School, Andheri"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "user-priya",
+      "reporterName": "Priya Sharma",
+      "aiAnalysis": {
+        "category": "pothole",
+        "confidence": 0.92,
+        "priority": "high",
+        "suggestedTitle": "Large pothole near school crossing",
+        "tags": [
+          "pothole",
+          "near-school",
+          "traffic-area"
+        ],
+        "reasoning": "AI detected strong keyword matches for road damage near a school zone."
+      },
+      "verifications": [
+        {
+          "userId": "user-raj",
+          "userName": "Raj Patel",
+          "timestamp": "2026-06-26T07:24:15.917Z",
+          "confirmed": true
+        },
+        {
+          "userId": "demo-user",
+          "userName": "Community Citizen",
+          "timestamp": "2026-06-27T07:24:15.917Z",
+          "confirmed": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Issue reported by citizen",
+          "updatedBy": "Priya Sharma",
+          "timestamp": "2026-06-25T07:24:15.917Z"
+        },
+        {
+          "id": "s2",
+          "status": "verified",
+          "note": "Verified by 2 community members",
+          "updatedBy": "System",
+          "timestamp": "2026-06-27T07:24:15.917Z"
+        },
+        {
+          "id": "s3",
+          "status": "in_progress",
+          "note": "Assigned to Road Maintenance Dept.",
+          "updatedBy": "Municipal Admin",
+          "timestamp": "2026-06-29T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 14,
+      "createdAt": "2026-06-25T07:24:15.917Z",
+      "updatedAt": "2026-06-29T07:24:15.917Z",
+      "assignedTo": "Road Maintenance Dept."
+    },
+    {
+      "id": "issue-002",
+      "title": "Water pipe burst flooding street",
+      "description": "Major water leakage from broken pipeline on Link Road. Water pooling across half the lane causing traffic disruption.",
+      "category": "water_leak",
+      "status": "verified",
+      "priority": "critical",
+      "location": {
+        "lat": 19.078,
+        "lng": 72.885,
+        "address": "Link Road, Bandra West"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "user-raj",
+      "reporterName": "Raj Patel",
+      "aiAnalysis": {
+        "category": "water_leak",
+        "confidence": 0.96,
+        "priority": "critical",
+        "suggestedTitle": "Water pipe burst flooding street",
+        "tags": [
+          "water-leak",
+          "urgent",
+          "traffic-area"
+        ],
+        "reasoning": "Critical water infrastructure failure with flooding indicators."
+      },
+      "verifications": [
+        {
+          "userId": "user-priya",
+          "userName": "Priya Sharma",
+          "timestamp": "2026-06-29T07:24:15.917Z",
+          "confirmed": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Emergency water leak reported",
+          "updatedBy": "Raj Patel",
+          "timestamp": "2026-06-28T07:24:15.917Z"
+        },
+        {
+          "id": "s2",
+          "status": "verified",
+          "note": "Confirmed by community member",
+          "updatedBy": "System",
+          "timestamp": "2026-06-29T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 22,
+      "createdAt": "2026-06-28T07:24:15.917Z",
+      "updatedAt": "2026-06-29T07:24:15.917Z"
+    },
+    {
+      "id": "issue-003",
+      "title": "Streetlights out on entire block",
+      "description": "All 4 streetlights on Oak Avenue have been non-functional for 2 weeks. Area is completely dark at night.",
+      "category": "streetlight",
+      "status": "reported",
+      "priority": "medium",
+      "location": {
+        "lat": 19.074,
+        "lng": 72.868,
+        "address": "Oak Avenue, Juhu"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "demo-user",
+      "reporterName": "Community Citizen",
+      "aiAnalysis": {
+        "category": "streetlight",
+        "confidence": 0.88,
+        "priority": "medium",
+        "suggestedTitle": "Streetlights out on entire block",
+        "tags": [
+          "streetlight",
+          "dark"
+        ],
+        "reasoning": "Multiple streetlight failure keywords detected."
+      },
+      "verifications": [],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Issue reported by citizen",
+          "updatedBy": "Community Citizen",
+          "timestamp": "2026-06-27T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 8,
+      "createdAt": "2026-06-27T07:24:15.917Z",
+      "updatedAt": "2026-06-27T07:24:15.917Z"
+    },
+    {
+      "id": "issue-004",
+      "title": "Illegal garbage dump near park",
+      "description": "Large pile of uncollected waste accumulating beside Central Park entrance. Strong smell and pest concerns.",
+      "category": "waste",
+      "status": "resolved",
+      "priority": "medium",
+      "location": {
+        "lat": 19.08,
+        "lng": 72.892,
+        "address": "Central Park Entrance, Khar"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "user-priya",
+      "reporterName": "Priya Sharma",
+      "aiAnalysis": {
+        "category": "waste",
+        "confidence": 0.91,
+        "priority": "medium",
+        "suggestedTitle": "Illegal garbage dump near park",
+        "tags": [
+          "waste",
+          "sanitation"
+        ],
+        "reasoning": "Waste management keywords with sanitation concern."
+      },
+      "verifications": [
+        {
+          "userId": "user-raj",
+          "userName": "Raj Patel",
+          "timestamp": "2026-06-18T07:24:15.917Z",
+          "confirmed": true
+        },
+        {
+          "userId": "demo-user",
+          "userName": "Community Citizen",
+          "timestamp": "2026-06-19T07:24:15.917Z",
+          "confirmed": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Waste dumping reported",
+          "updatedBy": "Priya Sharma",
+          "timestamp": "2026-06-16T07:24:15.917Z"
+        },
+        {
+          "id": "s2",
+          "status": "verified",
+          "note": "Community verified",
+          "updatedBy": "System",
+          "timestamp": "2026-06-19T07:24:15.917Z"
+        },
+        {
+          "id": "s3",
+          "status": "in_progress",
+          "note": "Sanitation team dispatched",
+          "updatedBy": "Municipal Admin",
+          "timestamp": "2026-06-22T07:24:15.917Z"
+        },
+        {
+          "id": "s4",
+          "status": "resolved",
+          "note": "Area cleaned and extra bin installed",
+          "updatedBy": "Sanitation Dept.",
+          "timestamp": "2026-06-28T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 19,
+      "createdAt": "2026-06-16T07:24:15.917Z",
+      "updatedAt": "2026-06-28T07:24:15.917Z",
+      "resolvedAt": "2026-06-28T07:24:15.917Z",
+      "assignedTo": "Sanitation Dept."
+    },
+    {
+      "id": "issue-005",
+      "title": "Broken footbridge railing — safety hazard",
+      "description": "The railing on the pedestrian footbridge over the creek is broken and loose. Very dangerous for elderly residents.",
+      "category": "safety",
+      "status": "verified",
+      "priority": "critical",
+      "location": {
+        "lat": 19.069,
+        "lng": 72.879,
+        "address": "Creek Footbridge, Santa Cruz"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "user-raj",
+      "reporterName": "Raj Patel",
+      "aiAnalysis": {
+        "category": "safety",
+        "confidence": 0.94,
+        "priority": "critical",
+        "suggestedTitle": "Broken footbridge railing — safety hazard",
+        "tags": [
+          "safety",
+          "infrastructure",
+          "dangerous"
+        ],
+        "reasoning": "Safety hazard with infrastructure damage near pedestrian crossing."
+      },
+      "verifications": [
+        {
+          "userId": "user-priya",
+          "userName": "Priya Sharma",
+          "timestamp": "2026-06-24T07:24:15.917Z",
+          "confirmed": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Safety hazard reported",
+          "updatedBy": "Raj Patel",
+          "timestamp": "2026-06-23T07:24:15.917Z"
+        },
+        {
+          "id": "s2",
+          "status": "verified",
+          "note": "Verified by community",
+          "updatedBy": "System",
+          "timestamp": "2026-06-24T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 31,
+      "createdAt": "2026-06-23T07:24:15.917Z",
+      "updatedAt": "2026-06-24T07:24:15.917Z"
+    },
+    {
+      "id": "issue-006",
+      "title": "Damaged bus stop shelter",
+      "description": "Bus stop shelter glass panel shattered. Sharp edges exposed to commuters waiting for buses.",
+      "category": "infrastructure",
+      "status": "resolved",
+      "priority": "medium",
+      "location": {
+        "lat": 19.085,
+        "lng": 72.876,
+        "address": "Bus Stop 42, Versova"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "demo-user",
+      "reporterName": "Community Citizen",
+      "aiAnalysis": {
+        "category": "infrastructure",
+        "confidence": 0.85,
+        "priority": "medium",
+        "suggestedTitle": "Damaged bus stop shelter",
+        "tags": [
+          "infrastructure",
+          "public"
+        ],
+        "reasoning": "Public infrastructure damage at transit point."
+      },
+      "verifications": [
+        {
+          "userId": "user-priya",
+          "userName": "Priya Sharma",
+          "timestamp": "2026-06-10T07:24:15.917Z",
+          "confirmed": true
+        }
+      ],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Infrastructure damage reported",
+          "updatedBy": "Community Citizen",
+          "timestamp": "2026-06-08T07:24:15.917Z"
+        },
+        {
+          "id": "s2",
+          "status": "verified",
+          "note": "Verified",
+          "updatedBy": "System",
+          "timestamp": "2026-06-10T07:24:15.917Z"
+        },
+        {
+          "id": "s3",
+          "status": "in_progress",
+          "note": "Repair crew assigned",
+          "updatedBy": "Municipal Admin",
+          "timestamp": "2026-06-15T07:24:15.917Z"
+        },
+        {
+          "id": "s4",
+          "status": "resolved",
+          "note": "Shelter repaired",
+          "updatedBy": "Public Works",
+          "timestamp": "2026-06-25T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 11,
+      "createdAt": "2026-06-08T07:24:15.917Z",
+      "updatedAt": "2026-06-25T07:24:15.917Z",
+      "resolvedAt": "2026-06-25T07:24:15.917Z",
+      "assignedTo": "Public Works"
+    },
+    {
+      "id": "issue-007",
+      "title": "Multiple potholes on service lane",
+      "description": "Service lane behind Market Street has 5+ potholes making it impassable for two-wheelers.",
+      "category": "pothole",
+      "status": "reported",
+      "priority": "high",
+      "location": {
+        "lat": 19.077,
+        "lng": 72.883,
+        "address": "Market Street Lane, Bandra"
+      },
+      "mediaUrls": [],
+      "mediaType": "none",
+      "reporterId": "user-priya",
+      "reporterName": "Priya Sharma",
+      "aiAnalysis": {
+        "category": "pothole",
+        "confidence": 0.9,
+        "priority": "high",
+        "suggestedTitle": "Multiple potholes on service lane",
+        "tags": [
+          "pothole",
+          "traffic-area"
+        ],
+        "reasoning": "Multiple road surface defects reported."
+      },
+      "verifications": [],
+      "statusHistory": [
+        {
+          "id": "s1",
+          "status": "reported",
+          "note": "Road damage reported",
+          "updatedBy": "Priya Sharma",
+          "timestamp": "2026-06-29T07:24:15.917Z"
+        }
+      ],
+      "upvotes": 6,
+      "createdAt": "2026-06-29T07:24:15.917Z",
+      "updatedAt": "2026-06-29T07:24:15.917Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "demo-user",
+      "name": "Community Citizen",
+      "email": "citizen@community.local",
+      "points": 120,
+      "level": 2,
+      "badges": [
+        {
+          "id": "first_report",
+          "name": "First Responder",
+          "description": "Submitted your first community report",
+          "icon": "🎯",
+          "earnedAt": "2026-06-10T07:24:15.917Z"
+        }
+      ],
+      "reportsCount": 2,
+      "verificationsCount": 3,
+      "createdAt": "2026-06-05T07:24:15.917Z"
+    },
+    {
+      "id": "user-priya",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "points": 340,
+      "level": 3,
+      "badges": [
+        {
+          "id": "first_report",
+          "name": "First Responder",
+          "description": "Submitted your first community report",
+          "icon": "🎯",
+          "earnedAt": "2026-05-21T07:24:15.917Z"
+        },
+        {
+          "id": "community_guardian",
+          "name": "Community Guardian",
+          "description": "Verified 5 community reports",
+          "icon": "🛡️",
+          "earnedAt": "2026-06-15T07:24:15.917Z"
+        }
+      ],
+      "reportsCount": 5,
+      "verificationsCount": 12,
+      "createdAt": "2026-05-16T07:24:15.917Z"
+    },
+    {
+      "id": "user-raj",
+      "name": "Raj Patel",
+      "email": "raj@example.com",
+      "points": 580,
+      "level": 4,
+      "badges": [
+        {
+          "id": "first_report",
+          "name": "First Responder",
+          "description": "Submitted your first community report",
+          "icon": "🎯",
+          "earnedAt": "2026-05-01T07:24:15.917Z"
+        },
+        {
+          "id": "problem_solver",
+          "name": "Problem Solver",
+          "description": "Helped resolve 3 issues",
+          "icon": "✅",
+          "earnedAt": "2026-06-20T07:24:15.917Z"
+        }
+      ],
+      "reportsCount": 8,
+      "verificationsCount": 6,
+      "createdAt": "2026-04-26T07:24:15.917Z"
+    }
+  ]
+}
