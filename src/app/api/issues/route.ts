@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 import type { Issue } from "@/lib/types";
 
 export async function GET() {
-  const issues = getIssues();
+  const issues = await getIssues();
   return NextResponse.json(issues);
 }
 
@@ -67,15 +67,15 @@ export async function POST(request: Request) {
       updatedAt: now,
     };
 
-    saveIssue(issue);
+    await saveIssue(issue);
 
-    let user = getOrCreateDemoUser();
+    let user = await getOrCreateDemoUser();
     if (userId === user.id || userId === "demo-user") {
       const { user: updated } = awardPoints(
         { ...user, reportsCount: user.reportsCount + 1 },
         "REPORT"
       );
-      saveUser(updated);
+      await saveUser(updated);
     }
 
     return NextResponse.json(issue, { status: 201 });

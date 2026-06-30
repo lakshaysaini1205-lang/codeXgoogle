@@ -6,7 +6,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const issue = getIssue(id);
+  const issue = await getIssue(id);
   if (!issue) {
     return NextResponse.json({ error: "Issue not found" }, { status: 404 });
   }
@@ -18,13 +18,13 @@ export async function PATCH(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const issue = getIssue(id);
+  const issue = await getIssue(id);
   if (!issue) {
     return NextResponse.json({ error: "Issue not found" }, { status: 404 });
   }
 
   const body = await request.json();
   const updated = { ...issue, ...body, updatedAt: new Date().toISOString() };
-  saveIssue(updated);
+  await saveIssue(updated);
   return NextResponse.json(updated);
 }

@@ -8,7 +8,7 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const issue = getIssue(id);
+  const issue = await getIssue(id);
   if (!issue) {
     return NextResponse.json({ error: "Issue not found" }, { status: 404 });
   }
@@ -44,15 +44,15 @@ export async function POST(
   }
 
   issue.updatedAt = new Date().toISOString();
-  saveIssue(issue);
+  await saveIssue(issue);
 
-  const user = getOrCreateDemoUser();
+  const user = await getOrCreateDemoUser();
   if (userId === user.id || userId === "demo-user") {
     const { user: updated } = awardPoints(
       { ...user, verificationsCount: user.verificationsCount + 1 },
       "VERIFY"
     );
-    saveUser(updated);
+    await saveUser(updated);
   }
 
   return NextResponse.json(issue);
