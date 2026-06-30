@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+data/store.json
+out
+build
+npm-debug.log
+.vercel
